@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Battle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-container">
+    <header>
+      <p class="eyebrow">ARCADE GALÁCTICO</p>
+      <h1>SPACE <span>BATTLE</span></h1>
+      <p class="subtitle">Defiende la galaxia. Sobrevive. ¡Haz récord!</p>
+    </header>
+
+    <section class="hud">
+      <div>PUNTOS <strong id="score">0</strong></div>
+      <div>VIDAS <strong id="lives">3</strong></div>
+      <div>NIVEL <strong id="level">1</strong></div>
+    </section>
+
+    <div class="canvas-wrap">
+      <canvas id="game" width="800" height="500"></canvas>
+      <div id="overlay" class="overlay">
+        <h2 id="message">¡PREPÁRATE!</h2>
+        <p id="instructions">Destruye enemigos y esquiva sus ataques.</p>
+        <button id="start">JUGAR</button>
+      </div>
+    </div>
+
+    <p class="controls">
+      <span>← →</span> Mover
+      <span>ESPACIO</span> Disparar
+      <span>ESC</span> Pausar
+    </p>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
