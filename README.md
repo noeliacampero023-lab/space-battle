@@ -39,6 +39,8 @@
 🎯 Objetivo del proyecto
 
 Este proyecto forma parte de mi aprendizaje de programación y desarrollo web. Mi objetivo es aprender creando un videojuego desde cero.
+Su objetivo es poner en práctica mis conocimientos adquiridos mediante la creación de un videojuego sencillo, utilizando HTML, CSS y JavaScript, así como familiarizarse con herramientas como Git y GitHub.
+
 
 ---
 
